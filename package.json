@@ -1,0 +1,28 @@
+{
+    "name": "rebuild",
+    "version": "0.1.2",
+    "description": "Rebuild",
+    "author": "Nicholas C. Zakas",
+    "engines": {
+        "node" : ">=0.8.8"
+    },
+    "directories": {
+        "lib" : "lib"
+    },
+    "bin": {
+        "rebuild": "./cli.js"
+    },
+    "dependencies" : {
+        "optimist" : "0.3.x"
+    },    
+    "licenses":[
+        {
+            "type" : "MIT",
+            "url" : "https://github.com/nzakas/rebuild/blob/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/nzakas/rebuild.git"
+    }
+}
